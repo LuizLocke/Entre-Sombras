@@ -1,0 +1,61 @@
+body {
+    background-color: #0a0a0a; /* Preto quase puro */
+    color: #b0bec5; /* Cinza azulado para texto */
+ 
+
+
+
+}
+
+.partI {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    width: 500px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.rain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1000;
+}
+
+.drop {
+    position: absolute;
+    width: 2px;
+    height: 15px;
+    background: rgba(255, 255, 255, 0.6);
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(100vh);
+    }
+}
+
+#flash {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+}
+
+
+

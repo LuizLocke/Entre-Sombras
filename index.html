@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Entre Sombras e Tempestades</title>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+
+
+
+    <script>
+
+function escolha1(){
+    var html = '<div class="partI">';
+    html += '<p> Acerta um deles com um cano de ferro a distancia </p>'; 
+    html += '<p>Esconde o corpo e o amarra</p>';
+    html += '<p>Você ataca os outros dois, rapidamente</p>';
+    html += '<p>Os amarra para a policia</p>';
+    html += '<p> Você os observe até a policia chegar... como um demonio</p>';
+    html += '<p><img src="img/city.jpg"></p>';
+    html += '<p><button class="button" onclick="escolha3()">Voltar para casa</button></p>';
+    $("body" ).append( html );
+}
+
+function escolha2(){
+    var html = '<div class="partI">';
+    html += '<p> Você respira fundo e pisa firme no chão molhado. </p>';
+    html += '<p> O som ecoa pelo posto de gasolina, chamando a atenção dos três criminosos. </p>';
+    html += '<p> Eles se viram. Dois seguram armas. O terceiro segura o frentista pelo colarinho. </p>';
+    html += '<p> "Quem diabos é você?", um deles rosna. </p>';
+    html += '<p> Você não responde. Apenas avança. </p>';
+    html += '<p> O primeiro levanta a arma, mas você já está nele. </p>';
+    html += '<p> Seu joelho encontra seu nariz. Um estalo seco. Ele cai sem soltar um som. </p>';
+    html += '<p> O segundo tenta puxar o gatilho, mas você desliza e gira o corpo. </p>';
+    html += '<p> Seu pé encontra seu maxilar. O impacto o derruba como um boneco de pano. </p>';
+    html += '<p> O último bandido solta o frentista e recua, olhos arregalados. </p>';
+    html += '<p> "Q-que diabos você é...?" </p>';
+    html += '<p> Você avança, e ele desaba, sem nem tentar lutar. </p>';
+    html += '<p><img src="img/shadows.jpg"></p>';
+    html += '<p> Você os amarra e observa até a polícia chegar. </p>';
+    html += '<p> As sirenes cortam a noite, mas você já se foi. </p>';
+    html += '<p> A cidade ainda precisa de você. </p>';
+    html += '<p><button class="button" onclick="escolha3()">Voltar para casa</button></p>';
+    $("body").append(html);
+}
+
+function escolha3(){
+    var html = '<div class="partI">';
+    html += '<p><img src="img/house.jpg"></p>';
+    html += '<p>..."Segunda-Feira, 27 de Outubro... "</p>';
+    html += '<p>... "As ruas da cidade estão cheias para as festividades..."</p>';
+    html += '<p>..."Escondido no caos, o elemento espera para atacar como uma cobra..."</p>';
+    html += '<p>..."Mas eu também estou lá... Observando. Anos na noite me transformaram em um animal noturno."</p>';
+    html += '<p><img src="img/city.jpg"></p>';
+    html += '<p>"A cidade é grande. Não dá para estar em todos os lugares."</p>';
+    html += '<p>"Mas eles não sabem onde eu estou..."</p>';
+    html += '<p><img src="img/chuva.gif"></p>';
+    html += '<p> "Há um sinal agora, para quando eu devo aparecer. Mas quando a luz se apaga em meio às sombras..."</p>';
+    html += '<p>"Não é só um sinal... é um aviso, para eles..."</p>';
+    html += '<p><img src="img/R.gif"></p>';
+    html += '<p> O relógio marca 3h da manhã. As sirenes soam à distância, misturando-se com o trovão. </p>';
+    html += '<p> O café esfria sobre a mesa. </p>';
+    html += '<p> Você remove as luvas, os nós dos dedos ainda doloridos do embate. </p>';
+    html += '<p> O reflexo no vidro mostra mais do que um rosto cansado. </p>';
+    html += '<p> Mostra uma promessa quebrada. Um sacrifício eterno. </p>';
+    html += '<p> O rádio sussurra estática... e então uma voz. </p>';
+    html += '<p> "Assalto à mão armada no distrito leste. Suspeitos armados e perigosos." </p>';
+    html += '<p> O repórter na TV fala sobre o medo que assola a cidade. </p>';
+    html += '<p> Eles estão certos em ter medo. </p>';
+    html += '<p> Você se levanta. </p>';
+    html += '<p> A noite ainda não acabou. </p>';
+    html += '<p><img src="img/anime-city.gif"></p>';
+    html += '<p><button class="button" onclick="escolha4()">Atender ao chamado</button></p>';
+    $("body").append(html);
+}
+
+
+function escolha4(){
+    var html = '<div class="partI">';
+    html += '<p> O som da chuva ecoa pelas ruas desertas. </p>';
+    html += '<p> Meu capuz está encharcado, o sangue seco ainda mancha minhas luvas. </p>';
+    html += '<p> O rádio da polícia crepita ao longe. Eles encontraram os corpos.</p>';
+    html += '<p> Mas minha noite ainda não acabou. </p>';
+    html += '<p> A cidade geme sob o peso da corrupção... e eu sou a resposta. </p>';
+    html += '<p><img src="img/ghotc.gif"></p>';
+    html += '<p> A névoa cobre os becos, sombras dançam sob a luz pálida dos postes quebrados. </p>';
+    html += '<p> Eu escuto um sussurro. Passos apressados. Um cheiro de medo no ar. </p>';
+    html += '<p> Mais uma vítima ou mais um predador? </p>';
+    html += '<p> Eu sigo, silencioso... letal. </p>';
+    html += '<p><button class="button" onclick="escolha5()">Continuar a patrulha</button></p>';
+    $("body").append(html);
+}
+
+function escolha5(){
+    var html = '<div class="partI">';
+    html += '<p> Eles acham que sou um mito. </p>';
+    html += '<p> Mas toda noite, eu provo o contrário. </p>';
+    html += '<p> No beco à frente, vejo três homens cercando alguém. Uma mulher. Tremendo. </p>';
+    html += '<p><img src="img/beco.gif"></p>';
+    html += '<p> O líder deles segura uma faca. O sorriso podre, a confiança de quem nunca foi parado antes. </p>';
+    html += '<p><img src="img/lider.jpg"></p>';
+    html += '<p> Ele está prestes a aprender.</p>';
+    html += '<p> Eu piso em uma poça. O som é mínimo, mas o suficiente. </p>';
+    html += '<p> Um deles se vira. Tarde demais. </p>';
+    html += '<p> O primeiro cai antes de perceber que a luta começou. </p>';
+    html += '<p> O segundo tenta correr. Meu punho encontra suas costelas. Ele desaba. </p>';
+    html += '<p> O terceiro fica paralisado. A faca tremula na mão. </p>';
+    html += '<p> "Você tem duas escolhas", eu digo. "Largar isso agora... ou eu quebro você." </p>';
+    html += '<p> Ele solta a lâmina. </p>';
+    html += '<p> O medo dele alimenta a lenda. </p>';
+    html += '<p><img src="img/thBatn.png"></p>';
+    html += '<p> A mulher corre. Não espero agradecimentos. </p>';
+    html += '<p> Eles vão se lembrar dessa noite. </p>';
+    html += '<p> Eles vão contar histórias sobre mim. </p>';
+    html += '<p><button class="button" onclick="escolha6()">Desaparecer na noite</button></p>';
+    $("body").append(html);
+}
+
+function escolha6(){
+    var html = '<div class="partI">';
+    html += '<p> O vento sopra frio. O crime nunca dorme... e eu também não. </p>';
+    html += '<p> A cidade pertence às sombras, mas agora... </p>';
+    html += '<p> ...as sombras pertencem a mim. </p>';
+    html += '<p><img src="img/Batman.gif"></p>';
+    html += '<p> O céu se ilumina. Um símbolo. Um chamado. </p>';
+    html += '<p> Eu desapareço no escuro. </p>';
+    html += '<p> A noite está só começando. </p>';
+    html += '<p><button class="button" onclick="reiniciar()">Recomeçar</button></p>';
+    $("body").append(html);
+}
+
+function reiniciar(){
+    location.reload();
+}
+
+
+
+    function createRain() {
+    const rainContainer = document.createElement("div");
+    rainContainer.classList.add("rain");
+    document.body.appendChild(rainContainer);
+
+    for (let i = 0; i < 100; i++) { 
+        let drop = document.createElement("div");
+        drop.classList.add("drop");
+        drop.style.left = Math.random() * 100 + "vw"; 
+        drop.style.animationDuration = (Math.random() * 0.5 + 0.5) + "s"; 
+        drop.style.animationDelay = Math.random() * 2 + "s";
+        rainContainer.appendChild(drop);
+    }
+}
+
+
+window.onload = createRain;
+
+
+    function relampago() {
+        let flash = document.getElementById("flash");
+        flash.style.opacity = "1";
+        setTimeout(() => {
+            flash.style.opacity = "0";
+        }, 100 + Math.random() * 200); 
+
+        
+        setTimeout(relampago, 5000 + Math.random() * 10000); // Entre 5 e 15 segundos
+    }
+
+    
+    setTimeout(relampago, 3000);
+
+
+
+     </script>
+
+</head>
+<body>
+
+    <audio controls>
+        <source src="audio/videoplayback.mp3" type="audio/mpeg">
+        
+    </audio>
+
+    <div id="flash"></div>
+
+
+    <div class="partI">
+    <h1>Entre Sombras e Tempestades</h1>
+    <p> Voce está em no Posto de Gasolina, e está frio... a cidade cheio de crimes, criminosos estão matando e roubando. O posto está sendo assaltado por tres criminosos. </p>
+    <img src="img/posto.jpg" alt=" " class="I">
+
+    <button class="button" onclick="escolha1()">Você pega um por um, na escuridão da noite...</button>
+    <button class="button" onclick="escolha2()">Chamar a atenção deles</button>
+    </div>
+
+
+</body>
+</html>
